@@ -1,4 +1,3 @@
-sudo apt-get install unixodbc unixodbc-dev
 mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
