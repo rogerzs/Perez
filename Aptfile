@@ -2,11 +2,9 @@ unixodbc
 unixodbc-dev
 python-pyodbc
 libsqliteodbc
-pip = "*"
-streamlit = "*"
-pandas = "*"
-numpy = "*"
-SQLAlchemy = "*"
-pyodbc = "*"
-plotly = "*"
-Pillow= "*"
+pandas==0.25.1
+pyodbc==4.0.30
+SQLAlchemy==1.3.9
+numpy==1.17.2
+streamlit==0.54.0
+Pillow==7.2.0
