@@ -5,7 +5,7 @@ pip install pyodbc
 mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
-email = \"seu-email@dominio.com\"\n\
+email = \"roger1506@usp.br\"\n\
 " > ~/.streamlit/credentials.toml
 echo "\
 [server]\n\
