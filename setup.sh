@@ -1,3 +1,6 @@
+sudo apt install g++
+pip install pyodbc
+
 mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
