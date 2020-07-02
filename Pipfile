@@ -11,10 +11,10 @@ pandas = "*"
 streamlit = "*"
 SQLAlchemy = "*"
 Pillow = "*"
+unixodbc = "*"
+unixodbc-dev="*"
+pyodbc = "*"
 
 
 [requires]
 python_version = "3.8"
-unixodbc = "*"
-unixodbc-dev="*"
-pyodbc = "*"
