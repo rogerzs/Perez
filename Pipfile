@@ -11,6 +11,7 @@ pandas = "*"
 streamlit = "*"
 SQLAlchemy = "*"
 Pillow = "*"
+pyodbc = "*"
 
 
 [requires]
