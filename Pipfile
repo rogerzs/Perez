@@ -6,14 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-
+numpy = "*"
+pandas = "*"
+streamlit = "*"
+SQLAlchemy = "*"
+Pillow = "*"
 
 
 [requires]
 python_version = "3.8"
 pyodbc = "4.0.30"
-numpy = "1.17.2"
-pandas = "0.25.1"
-streamlit = "0.54.0"
-SQLAlchemy = "1.3.9"
-Pillow = "7.2.0"
