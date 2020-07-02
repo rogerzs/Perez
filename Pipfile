@@ -9,6 +9,7 @@ verify_ssl = true
 streamlit = "*"
 pandas = "*"
 numpy = "*"
+pyodbc = "*"
 SQLAlchemy = "*"
 plotly = "*"
 Pillow= "*"
