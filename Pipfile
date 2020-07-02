@@ -15,4 +15,6 @@ Pillow = "*"
 
 [requires]
 python_version = "3.8"
-pyodbc = "4.0.30"
+unixodbc = "*"
+unixodbc-dev="*"
+pyodbc = "*"
