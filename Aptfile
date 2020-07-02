@@ -2,3 +2,10 @@ unixodbc
 unixodbc-dev
 python-pyodbc
 libsqliteodbc
+pip
+streamlit
+pandas
+numpy
+SQLAlchemy
+plotly
+Pillow
