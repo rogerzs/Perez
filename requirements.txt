@@ -1,3 +1,4 @@
+pycurl==7.43.0.5
 streamlit==0.54.0
 pyodbc==4.0.30
 pandas==0.25.1
