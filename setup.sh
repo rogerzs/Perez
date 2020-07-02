@@ -24,6 +24,8 @@ source ~/.bashrc
 # optional: for unixODBC development headers
 sudo apt-get install unixodbc-dev
 
+pip install pyodbc
+
 
 mkdir -p ~/.streamlit/
 echo "\
