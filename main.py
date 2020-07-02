@@ -1,5 +1,4 @@
 import pandas as pd
-import plotly.express as px
 from sqlalchemy import create_engine
 from math import sqrt
 import numpy as np
