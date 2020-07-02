@@ -1,7 +1,3 @@
-sudo apt-get install unixodbc
-sudo apt-get install unixodbc-dev
-pip install pyodbc
-
 mkdir -p ~/.streamlit/
 echo "\
 [general]\n\
