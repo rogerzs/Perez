@@ -1,9 +1,11 @@
-import pyodbc
+# import pyodbc
 import pandas as pd
 import streamlit as st
 import datetime
 from datetime import date
-pyodbc.drivers()
+import pyodbc
+
+
 
 
 
@@ -11,8 +13,9 @@ server = '191.209.82.193,61112'
 database = 'fit'
 username = 'robinson'
 password = 'SuperEACH!2020'
-cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
-cursor = cnxn.cursor()
+connection_string = 'Driver={FreeTDS};Server=' + server + ';Database=' + database+ ';UID=' + username + ';PWD=' + password + ';'
+cnxn = pyodbc.connect(connection_string)
+# cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 
 
 global proximo_id
