@@ -41,14 +41,18 @@ if 'Ver reservas de um sócio' in analysis:
     ver_socio(socio_id)
 
 if 'Fazer Reserva de Sala' in analysis:
-    sala = st.text_input(label = 'Digite o Número da Sala')
+
+    sala = st.text_input(label='Digite o Número da Sala')
     socio_id = st.text_input(label='Digite o ID do sócio')
     socio_id2 = st.text_input(label='Digite o ID do segundo sócio')
     start_period = st.date_input(label='Data da Reserva',
-                                 value=date(2020, 3, 2))
-    observacao = st.text_input(label='Observação ou motivo da reserva')
+                                 value=date(2020, 6, 16))
+    start_time = st.time_input(label='Horário da Reserva',
+                                 value=datetime(2020, 6, 16,9,0,0))
+    start_period = datetime.strptime(start_period.strftime('%Y-%m-%d') + " " + start_time.strftime('%H:%M:%S'),'%Y-%m-%d %H:%M:%S')
 
-    reservar_sala(sala,socio_id,socio_id2,start_period,observacao)
+    observacao = st.text_input(label='Observação ou motivo da reserva')
+    reservar_sala(sala,socio_id,socio_id2,start_period + timedelta(hours=3),observacao)
 
 
 
